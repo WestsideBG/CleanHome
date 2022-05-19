@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <title>CLEANHOME - Best Cleaning Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Cleaning Company Website Template" name="keywords">
+    <meta content="Cleaning Company Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="/img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container-fluid">
+                <div class="header-top row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="brand">
+                            <a href="@Url.Action("Index", "Home", new {lang = "BG"})">
+                                CleanHome
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="topbar" style="left: 34px">
+                            <div class="topbar-col">
+                                <a href="tel:+31 687 417496"><i class="fa fa-phone-alt"></i>+31 687 417496</a>
+                            </div>
+                            <div class="topbar-col">
+                                <a href="mailto:kafedjieval@gmail.com"><i class="fa fa-envelope"></i>kafedjieval@gmail.com</a>
+                            </div>
+                            <div class="topbar-col">
+                            </div>
+                        </div>
+                        <div class="navbar navbar-expand-lg bg-light navbar-light">
+                            <a href=@Url.Action("Index", "Home", new {lang = "BG"})" class="navbar-brand">MENU</a>
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                <div class="navbar-nav ml-auto">
+                                    <a href="@Url.Action("Index", "Home", new {lang = "BG"})" class="nav-item nav-link">Начало</a>
+                                    <a href="@Url.Action("Service", "Home", new {lang = "BG"})" class="nav-item nav-link">Услуги</a>
+                                    <a href="#" class="nav-item nav-link active">Контакти</a>
+                                        <div class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Български</a>
+                                            <div class="dropdown-menu">
+                                                <a href="@Url.Action("Contact", "Home", new {lang = "EN"})" class="dropdown-item">Английски</a>
+                                                <a href="/Home/Contact" class="dropdown-item">Нидерландски</a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+        <!-- Page Header Start -->
+@*        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Our Services</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="index.html">Home</a>
+                        <a href="service.html">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+
+        <!-- Contact Start -->
+        <div class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p>Контакти</p>
+                </div>
+                    <div class="col-md-12">
+                        <div class="contact-form">
+                            <p>Може да ни се обадите:</p>
+
+                            <p><a href="tel:+31 687 417496"><i class="fa fa-phone-alt"></i>+31 687 417496</a></p>
+
+                            <p>Или да ни изпратите имейл:</p>
+
+                            <p><a href="mailto:kafedjieval@gmail.com"><i class="fa fa-envelope"></i> kafedjieval@gmail.com</a></p>
+
+                            <p>Очакваме ви! Нека работим заедно, за да направим вашият дом по-чист от всякога! Ние сме винаги на ваше разположение.</p>
+
+                            <p>Адрес:</p>
+                            Landmanstraat 18B
+                            3082 WL Rotterdam, Netherlands
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#">CLEANHOME</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Powered By <a href="https://github.com/WestsideBG">Samir Azzam</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+            
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="/lib/easing/easing.min.js"></script>
+        <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="/lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="/lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="/js/main.js"></script>
+    </body>
+</html>

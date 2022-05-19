@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanHome", "CleanHome\CleanHome.csproj", "{C57001A8-73CF-4004-A779-2C4438F68AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C57001A8-73CF-4004-A779-2C4438F68AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57001A8-73CF-4004-A779-2C4438F68AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57001A8-73CF-4004-A779-2C4438F68AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57001A8-73CF-4004-A779-2C4438F68AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1106795B-5053-46CE-99AA-F8A71375A815}
+	EndGlobalSection
+EndGlobal
